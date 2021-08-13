@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Yu Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+
+
+    <header>
+        <div id="navbar" class="navbar navbar-dark navbar-expand-md fixed-top">
+            <a class="navbar-brand" >Charles Yu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapse_target">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Resume.pdf" target="_blank">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="container-fluid" id="hero">
+            <div class="row">
+                <div class="col-12 col-md-6 pic">
+                    <img src="Pictures/charles.jpg" alt="profile pic" class="rounded-circle img-responsive">
+                </div>
+                <div class="col-12 col-md-6 heading">
+                    <h1>Charles Yu</h1>
+           
+                    <p1 class="about-me">I'm currently a junior at the University of Michigan Ross School of Business. I'm pursuing
+                        a dual degree in finance and data science. During my freetime, I enjoy watching TV shows, playing basketball, and trying out new restaurants
+                        with friends and family.
+                    </p1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-4 card-col">
+                    <div class="card">
+                        <img class="card-img-top" src="./Pictures/basketball.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href = "https://github.com/charles001203/nba_analysis_proj" target = "_blank">NBA Analysis Project</a></Table></h5>
+                            <p class="card-text">In this project, I wrote code in Python and utilized machine learning algorithms to predict the next NBA final championship 
+                                team for season 2020-2021. The five relevant datasets were found in Kaggle which used BeautifulSoup to extract real time information from the 
+                                official NBA website. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 card-col">
+                    <div class="card">
+                        <img class="card-img-top" src="./Pictures/happiness.jpeg" >
+                        <div class="card-body">
+                            <h5 class="card-title"><a href = "https://github.com/charles001203/World-Happiness-Report/tree/master" target = "_blank">World Happiness Report</a></h5>
+                            <p class="card-text"> In this project, I implemented code in Jupyter Notebook to discover insights about world's happiness
+                                status with quantifiable metrics. I was able to utlize several statistical techniques to find the difference of happiness
+                                before and during COVID-19. I also tested and trained several models with different ML algorithms to find the best model to predict
+                                health life expectancy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 card-col">
+                    <div class="card">
+                        <img class="card-img-top" src="./Pictures/stock.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href = "https://github.com/charles001203/Trading-Algorithm" target = "_blank">Trading Algorithms</a></h5>
+
+                            <p class="card-text">In this project, I developed a stock simulation to predict the daily low and high prices of Apple from 2020-2021. 
+                                I also created an investment algorithm strategy by analyzing data collections with simple moving average and exponential moving average.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  col-md-6 col-xl-4 card-col">
+                    <div class="card">
+                        <img class="card-img-top" src="./Pictures/amongus.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href = "https://github.com/charles001203/AmongUs" target = "_blank">Among Us</a></h5>
+
+                            <p class="card-text">In this project, I built an Among Us gaming simulation in C++ to create the shortest path for user to escape the monstrous laboratory
+                                Implemented the code using built-in C++ libraries such priority queue and stack and algorithms such as MST, TSP, and OPTTSP.
+                             </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 card-col">
+                    <div class="card">
+                        <img class="card-img-top" src="./Pictures/database.png">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href = "https://github.com/charles001203/SillyQL_Project" target = "_blank">Silly QL</a></h5>
+                            <p class="card-text">In this project, I created a relational database with an interface based on a subset of a standard query language.
+                                I also implemented backend with C++, gained exposure to code that make uses of data structures, including vector, deque, and priority queue
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 card-col">
+                    <div class="card">
+                        <img class="card-img-top" src="./Pictures/ocr.png">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href = "../charles/DataProphet Project 4 Presentation.pdf" target = "_blank">OCR Tracebility Project</a></h5>
+                            <p class="card-text">In this project, I developed unsupervised region detection model by using machine learning algorithms through Python and image processing, 
+                                increased model efficiency by 40%. I also Constructed OCR models to read product unit details from product and supplied data to a front-end human-machine interface (HMI), 
+                                enabled inspectors to link quality assessment results with actual product unit. Lastly, I coded a pipeline for a vision system by making use of object character recognition, 
+                                labeled images captured by cameras installed at factory floor with 20% clearer readability
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+    </main>
+    <footer id="contact">
+            <div class="col-12 links">
+                <ul class="contact-links">
+                    <li>
+                        <a href="https://github.com/charles001203" target = "_blank">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/cy1203" target = "_blank">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="mailto: yuruntang1203@gmail.com">Email</a>
+                    </li>
+                </ul>
+            </div>
+    </footer>
+
