@@ -7,7 +7,7 @@
 }
 
 .navbar{
-    background-color: black;
+    background-color: lightsteelblue;
 }
 
 .navbar.scrolled{
@@ -242,8 +242,8 @@
 
 #contact{
     padding: 1px;
-    background-color: black;
-    color: black;
+    background-color: lightsteelblue;
+    color: lightsteelblue;
 }
 
 #contact h3, h6{
